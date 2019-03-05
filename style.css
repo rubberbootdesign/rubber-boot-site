@@ -1,0 +1,27 @@
+/* general style */
+h1, h2, nav, button {
+  font-family: 'Meera Inimai', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.align-container {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+/* nav bar style */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-top: 1em;
+}
