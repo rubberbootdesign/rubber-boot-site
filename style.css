@@ -1,15 +1,48 @@
 /* general style */
+:root {
+  --light-blue: #2CF7DC;
+  --blue: #0AC7FC;
+  --salmon: #FF6A56;
+  --yellow: #FFD507
+  --grey: #F9F2FF;
+}
+
 h1, h2, nav, button {
   font-family: 'Meera Inimai', sans-serif;
 }
 
 p {
   font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
 }
 
 .align-container {
   max-width: 40em;
   margin: 0 auto;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 49%; /* to leave room for a border */
+}
+
+/* for images */
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.circle-crop {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  overflow: hidden;
 }
 
 /* nav bar style */
@@ -24,4 +57,52 @@ nav a {
   font-weight: bold;
   font-size: 1.3em;
   padding-top: 1em;
+}
+
+.logo {
+  height: 11em;
+  width: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.me {
+  background-color: var(--blue);
+  color: white;
+}
+
+.me .align-container {
+  padding: 4em 0 2em 0;
+}
+
+.me .column {
+  height: 10em;
+}
+
+.me .left-border {
+  border-left: white solid 2px;
+}
+
+/* for my photo */
+.me img {
+  height: 19em;
+  width: auto;
+  position: relative;
+  bottom: 2.1em;
+  right: 0.7em;
+}
+
+.me h1 {
+  font-size: 3.3em;
+  margin: 0 0 0 3em;
+  position: relative;
+  top: 0.6em;
+}
+
+.me .row {
+  padding-bottom: 3em;
+}
+
+.me p {
+  font-weight: bold;
 }
