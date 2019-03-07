@@ -3,11 +3,11 @@
   --light-blue: #2CF7DC;
   --blue: #0AC7FC;
   --salmon: #FF6A56;
-  --yellow: #FFD507
+  --yellow: #FFD507;
   --grey: #F9F2FF;
 }
 
-h1, h2, nav, button {
+h1, h2, a, footer {
   font-family: 'Meera Inimai', sans-serif;
 }
 
@@ -105,4 +105,99 @@ nav a {
 
 .me p {
   font-weight: bold;
+}
+
+.do .column {
+  padding-top: 7em;
+}
+
+.do h2 {
+  padding-top: 12em;
+  padding-bottom: 1em;
+}
+
+.do p {
+  padding-right: 7em;
+}
+
+.do img {
+  height: 12em;
+  margin-top: 4em;
+  box-shadow: 1em 1em #ffd50774;
+}
+
+#right-img {
+  float: right;
+  height: 10em;
+}
+
+.do .row {
+  margin-bottom: 10em;
+}
+
+.why {
+  background-color: var(--salmon);
+  color: white;
+}
+
+.why img {
+  height: 18em;
+  transform: scaleX(-1);
+  position: relative;
+  right: 3em;
+}
+
+.why h2 {
+  padding-top: 2.4em;
+  padding-left: 1em;
+}
+
+.why p {
+  padding-left: 1.3em;
+}
+
+.crop {
+  overflow: hidden;
+  height: 18em;
+  width: 18em;
+}
+
+.pricing {
+  padding-top: 8em;
+  text-align: center;
+}
+
+.pricing h2 {
+  padding-bottom: 1em;
+}
+
+.pricing img {
+  height: 13em;
+  padding-bottom: 3em;
+}
+
+.pricing p {
+  padding-bottom: 5em;
+}
+
+.contact-button {
+  text-align: center;
+  background-color: var(--blue);
+  height: 2.5em;
+  width: 8em;
+  margin-bottom: 7em;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  position: relative;
+  right: 0.05em;
+  top: 0.09em;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--grey);
 }
