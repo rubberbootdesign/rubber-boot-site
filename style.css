@@ -7,8 +7,13 @@
   --grey: #EFE9F2;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-  margin: 0;
+  margin: 0 0 2em;
 }
 
 h1, h2, a, footer {
@@ -208,10 +213,30 @@ nav a:active, nav a:hover, .selected {
 footer {
   text-align: center;
   background-color: var(--grey);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 4em;
 }
 
 footer p {
   margin: 0;
   padding: 1em 0;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* porfolio page style */
+.portfolio h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+/* contact page style */
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 3em;
 }
